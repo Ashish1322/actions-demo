@@ -1,0 +1,15 @@
+find() : It will return you all the documents
+find({name:"Ashish"}) : It will return you all the documents in which name is Ashsih
+findById("398403984dkhdkf") : It will fetch the document by it's id
+
+
+
+{
+    name:"ak",
+    _id: 309482039
+}
+
+findOne({name:"ak"})
+findOne({_id: 309482039 })
+findById(309482039) --> This is 2 times faster then above 2
+
